@@ -1,0 +1,1 @@
+scoreboard players set isPlayerLocked Bool 0

@@ -1,0 +1,3 @@
+function dp-main:lines/clear-chat
+
+tellraw @a ["",{"text":"Péter:","bold":true,"color":"aqua"},{"text":" Rózsaszín! Nagyszer\u0171 választás! Akkor a következ\u0151: Milyen ételt fogyasztanál a feladatok során?","color":"aqua"},{"text":"\n"},{"text":"[Steak]\n[Sültkrumpli]\n[Aranyrépa]\n[Szarrá ázott kutyakaja]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lines/start-game/l4"}}]
