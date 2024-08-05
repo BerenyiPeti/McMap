@@ -6,7 +6,7 @@ execute if score isLiftMoving Bool matches 0 run execute at @p run execute if bl
 
 execute if score isLiftMoving Bool matches 0 run execute at @p run execute if block ~ ~-2 ~ light_gray_glazed_terracotta run function dp-main:lift/lift-controller
 
-execute if score isLiftMoving Bool matches 0 run execute at @p run execute if block ~ ~-2 ~ light_gray_glazed_terracotta run scoreboard players set isDoorClosed Bool 1
+#execute if score isLiftMoving Bool matches 0 run execute at @p run execute if block ~ ~-2 ~ light_gray_glazed_terracotta run scoreboard players set isDoorClosed Bool 1
 
 
 

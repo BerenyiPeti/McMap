@@ -15,12 +15,14 @@ execute positioned -6 -59 27 run execute if entity @p[distance=..1] run setblock
 
 execute positioned -22 -59 9 run execute if entity @p[distance=..1] run setblock -6 -56 13 minecraft:red_concrete
 
+execute at @p run execute if block ~0.3 ~-3 ~ minecraft:light_blue_glazed_terracotta run spawnpoint @p 42 -59 6
 execute at @p run execute if block ~0.3 ~-3 ~ minecraft:light_blue_glazed_terracotta run tp @p 42 -59 6
-spawnpoint @p 42 -59 6
 
 #alkalmassági teszt
 
 #execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard players set @p StartQuiz -69420
 execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard players remove @p StartQuiz 1
 
-function dp-main:spawn/start-game
+#piston game
+function dp-main:piston-game/level-controller
+
