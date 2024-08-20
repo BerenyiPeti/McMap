@@ -21,8 +21,20 @@ scoreboard players set isLiftMoving Bool 0
 scoreboard objectives add Int dummy
 scoreboard players set 20 Int 20
 
+scoreboard objectives add rails dummy
+scoreboard players set changed rails 0
+scoreboard players set started rails 0
+scoreboard players set red rails 0
+scoreboard players set blue rails 0
+scoreboard players set green rails 0
+scoreboard players set orange rails 0
+scoreboard players set yellow rails 0
+scoreboard players set purple rails 0
+scoreboard players set lvl1 rails 0
+
 
 #scoreboard objectives setdisplay sidebar Bool
 
-kill @e[type=marker,tag=lock]
+kill @e[type=minecraft:marker,tag=lock]
+kill @e[type=minecraft:minecart]
 summon marker 0 -60 0 {Invulnerable:1b,Tags:["lock"]}
