@@ -24,13 +24,18 @@ scoreboard players set 20 Int 20
 scoreboard objectives add rails dummy
 scoreboard players set changed rails 0
 scoreboard players set started rails 0
+scoreboard players set restarted rails 0
 scoreboard players set red rails 0
 scoreboard players set blue rails 0
 scoreboard players set green rails 0
 scoreboard players set orange rails 0
 scoreboard players set yellow rails 0
 scoreboard players set purple rails 0
-scoreboard players set lvl1 rails 0
+#scoreboard players set lvl1 rails 0
+scoreboard players set lvl2 rails 0
+scoreboard players set lvl3 rails 0
+scoreboard players set lvl4 rails 0
+scoreboard players set lvl5 rails 0
 
 
 #scoreboard objectives setdisplay sidebar Bool

@@ -1,10 +1,7 @@
 kill @e[type=minecraft:minecart]
-scoreboard players set changed rails 0
-scoreboard players set started rails 0
-scoreboard players set red rails 0
-scoreboard players set blue rails 0
-scoreboard players set green rails 0
-scoreboard players set orange rails 0
-scoreboard players set yellow rails 0
-scoreboard players set purple rails 0
+function dp-main:blue-games/reset
 scoreboard players set lvl1 rails 0
+scoreboard players set lvl2 rails 0
+scoreboard players set lvl3 rails 0
+
+setblock 275 -40 59 minecraft:air

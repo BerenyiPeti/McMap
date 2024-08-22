@@ -1,0 +1,4 @@
+Issues:
+
+Rails resetnél a reset-rail nem fut le, ha minden rail alap pozícióban van, ezért kétszer kell megnyomni
+a gombot, hogy átváltson
