@@ -20,8 +20,8 @@ execute at @p run execute if block ~0.3 ~-3 ~ minecraft:light_blue_glazed_terrac
 
 #alkalmassági teszt
 
-#execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard players set @p StartQuiz -69420
-execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard players remove @p StartQuiz 1
+execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard players set @p StartQuiz -69420
+#execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard players remove @p StartQuiz 1
 
 #piston game
 function dp-main:piston-game/level-controller
