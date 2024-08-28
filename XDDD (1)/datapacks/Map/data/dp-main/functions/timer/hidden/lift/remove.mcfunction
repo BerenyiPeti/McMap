@@ -1,0 +1,1 @@
+execute if score timeHiddenLift Timer >= 0 numbers run scoreboard players remove timeHiddenLift Timer 1

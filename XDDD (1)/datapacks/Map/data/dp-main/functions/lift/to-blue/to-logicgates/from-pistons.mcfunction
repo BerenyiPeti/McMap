@@ -1,0 +1,1 @@
+tellraw @a {"text":"WIP: to logicgates from pistons"}

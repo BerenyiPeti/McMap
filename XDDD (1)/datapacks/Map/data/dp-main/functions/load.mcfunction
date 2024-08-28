@@ -37,3 +37,5 @@ scoreboard players set lvl5 rails 0
 kill @e[type=minecraft:marker,tag=lock]
 kill @e[type=minecraft:minecart]
 summon marker 0 -60 0 {Invulnerable:1b,Tags:["lock"]}
+
+scoreboard objectives setdisplay sidebar Timer

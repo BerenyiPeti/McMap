@@ -1,0 +1,1 @@
+scoreboard players set timeHiddenLift Timer 20

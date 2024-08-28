@@ -1,6 +1,6 @@
 #timer
 execute unless score playerLevel Timer matches 0 run function dp-main:timer/visible/timer-controller
-execute unless score timeHidden Timer < 0 numbers run function dp-main:timer/hidden/timer-controller
+function dp-main:timer/hidden/timer-controller
 
 
 #player locked
