@@ -1,5 +1,5 @@
 tellraw @a "Map datapack successfully loaded!"
-#execute unless entity @e[tag=peti] run summon cow 0 -60 0 {Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["peti"],CustomName:'"Péter"'}
+
 scoreboard objectives add StartQuiz dummy
 scoreboard players set question StartQuiz 0
 scoreboard players set answer StartQuiz 0
@@ -17,9 +17,14 @@ scoreboard objectives add Bool dummy
 scoreboard players set isPlayerLocked Bool 0
 scoreboard players set isDoorClosed Bool 0
 scoreboard players set isLiftMoving Bool 0
+scoreboard players set liftevent Bool 0
+#ez kell
+scoreboard players set liftEventHappened Bool 0
 
 scoreboard objectives add Int dummy
 scoreboard players set 20 Int 20
+scoreboard players set 140 Int 140
+scoreboard players set 150 Int 150
 
 scoreboard objectives add rails dummy
 scoreboard players set changed rails 0
@@ -31,6 +36,16 @@ scoreboard players set lvl3 rails 0
 scoreboard players set lvl4 rails 0
 scoreboard players set lvl5 rails 0
 
+#scoreboard objectives add waterstream dummy
+#scoreboard objectives setdisplay sidebar waterstream
+#scoreboard players set ready waterstream 0
+
+scoreboard objectives add mazepuzzle dummy
+scoreboard objectives setdisplay sidebar mazepuzzle
+scoreboard players set ready mazepuzzle 0
+scoreboard players set max-x mazepuzzle 2
+scoreboard players set max-y mazepuzzle 2
+
 
 #scoreboard objectives setdisplay sidebar Bool
 
@@ -38,4 +53,8 @@ kill @e[type=minecraft:marker,tag=lock]
 kill @e[type=minecraft:minecart]
 summon marker 0 -60 0 {Invulnerable:1b,Tags:["lock"]}
 
-scoreboard objectives setdisplay sidebar Timer
+#scoreboard objectives setdisplay sidebar Timer
+
+#töröld ki ezeket, ha kész a map + scoreboard player seteket!
+setblock 7 -60 37 minecraft:air
+

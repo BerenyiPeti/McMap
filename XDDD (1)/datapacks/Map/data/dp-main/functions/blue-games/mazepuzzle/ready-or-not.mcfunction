@@ -1,0 +1,2 @@
+execute if score ready mazepuzzle matches 0 run function dp-main:blue-games/mazepuzzle/mazepuzzle-controller
+execute if score ready mazepuzzle matches 1 run function dp-main:blue-games/mazepuzzle/ready

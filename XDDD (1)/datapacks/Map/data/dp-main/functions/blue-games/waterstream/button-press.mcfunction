@@ -1,0 +1,1 @@
+fill 317 -58 14 327 -57 4 minecraft:redstone_block replace minecraft:red_wool

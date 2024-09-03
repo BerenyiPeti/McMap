@@ -1,0 +1,1 @@
+scoreboard players set liftEventHappened Bool 0

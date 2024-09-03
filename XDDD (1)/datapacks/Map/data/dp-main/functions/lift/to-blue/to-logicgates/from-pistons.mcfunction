@@ -1,1 +1,3 @@
-tellraw @a {"text":"WIP: to logicgates from pistons"}
+function dp-main:lift/started-lift
+execute as @p rotated as @s run tp @s ~118 ~17 ~-3
+spawnpoint @p 238 -41 67 180
