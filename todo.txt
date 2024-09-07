@@ -4,3 +4,11 @@ Ideas:
 -vízelvezető
 -memória
 -gombok időre
+-backrooms random event
+
+Todo:
+-liftzene a minecart hang helyett
+-voicelineok
+-dizájn
+
+clone, aztan kifilleli airrel. ha ne fillel, nem rak blockot, ha igen, rak

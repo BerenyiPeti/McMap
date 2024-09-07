@@ -46,6 +46,8 @@ scoreboard players set ready mazepuzzle 0
 scoreboard players set max-x mazepuzzle 2
 scoreboard players set max-y mazepuzzle 2
 
+scoreboard objectives add perspectives dummy
+
 
 #scoreboard objectives setdisplay sidebar Bool
 
