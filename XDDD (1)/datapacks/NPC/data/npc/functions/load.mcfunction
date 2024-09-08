@@ -5,4 +5,4 @@ scoreboard players set south npc 0
 scoreboard players set west npc 0
 scoreboard players set east npc 0
 
-scoreboard objectives setdisplay sidebar npc
+#scoreboard objectives setdisplay sidebar npc

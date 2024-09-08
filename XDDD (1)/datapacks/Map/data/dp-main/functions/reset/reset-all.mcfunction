@@ -7,6 +7,7 @@ function dp-main:reset/reset-pistones
 function dp-main:reset/reset-rails
 function dp-main:reset/reset-logicgates
 function dp-main:reset/reset-mazepuzzle
+function dp-main:reset/reset-perspectives
 
 #events
 function dp-main:reset/reset-events
