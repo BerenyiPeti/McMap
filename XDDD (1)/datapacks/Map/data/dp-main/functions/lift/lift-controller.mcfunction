@@ -9,25 +9,24 @@ execute if score lift Lift matches 100 run tellraw @a ["",{"text":"Válaszd ki a
 execute if score lift Lift matches 200 run function dp-main:lift/kill-lift
 
 #lobby 1-10
-execute if score lift Lift matches 1 run tellraw @a ["",{"text":"Válaszd ki az emeletet!\n***********************","bold":true},{"text":"\n"},{"text":"[Csongi kedvence]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-pistons/from-lobby"}},{"text":"\n"},{"text":"[Logikai kapuk]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-logicgates/from-lobby"}},{"text":"\n"},{"text":"[Vasutak]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-rails/from-lobby"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n\n"},{"text":"[Mégse]","italic":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/cancel"}}]
-
-#{"text":"[Központ]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-lobby/from-piston"}}
+execute if score lift Lift matches 1 run function dp-main:lift/tellraw/lift1
 
 #blue 11-20
 
 #pistons
-execute if score lift Lift matches 11 run tellraw @a ["",{"text":"Válaszd ki az emeletet!\n***********************","bold":true},{"text":"\n"},{"text":"[Központ]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-lobby/from-pistons"}},{"text":"\n"},{"text":"[Logikai kapuk]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-logicgates/from-pistons"}},{"text":"\n"},{"text":"[Vasutak]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-rails/from-pistons"}},{"text":"\n"},{"text":"[Vízáram]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n\n"},{"text":"[Mégse]","italic":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/cancel"}}]
-
+execute if score lift Lift matches 11 run function dp-main:lift/tellraw/lift11
 
 #logic gates
-execute if score lift Lift matches 12 run tellraw @a ["",{"text":"Válaszd ki az emeletet!\n***********************","bold":true},{"text":"\n"},{"text":"[Központ]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-lobby/from-logicgates"}},{"text":"\n"},{"text":"[Csongi kedvence]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-pistons/from-logicgates"}},{"text":"\n"},{"text":"[Vasutak]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-rails/from-logicgates"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n\n"},{"text":"[Mégse]","italic":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/cancel"}}]
+execute if score lift Lift matches 12 run function dp-main:lift/tellraw/lift12
 
 #rails
-execute if score lift Lift matches 13 run tellraw @a ["",{"text":"Válaszd ki az emeletet!\n***********************","bold":true},{"text":"\n"},{"text":"[Központ]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-lobby/from-rails"}},{"text":"\n"},{"text":"[Csongi kedvence]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-pistons/from-rails"}},{"text":"\n"},{"text":"[Logikai kapuk]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-logicgates/from-rails"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n\n"},{"text":"[Mégse]","italic":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/cancel"}}]
+execute if score lift Lift matches 13 run function dp-main:lift/tellraw/lift13
 
-#waterstream
-execute if score lift Lift matches 14 run tellraw @a ["",{"text":"Válaszd ki az emeletet!\n***********************","bold":true},{"text":"\n"},{"text":"[Központ]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-lobby/from-rails"}},{"text":"\n"},{"text":"[Csongi kedvence]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-pistons/from-rails"}},{"text":"\n"},{"text":"[Logikai kapuk]","bold":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/to-blue/to-logicgates/from-rails"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n"},{"text":"[Game]","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @a {\"text\":\"WIP\"}"}},{"text":"\n\n"},{"text":"[Mégse]","italic":true,"clickEvent":{"action":"run_command","value":"/function dp-main:lift/cancel"}}]
+#mazepuzzle
+execute if score lift Lift matches 14 run function dp-main:lift/tellraw/lift14
 
+#perspectives
+execute if score lift Lift matches 15 run function dp-main:lift/tellraw/lift15
 
 
 

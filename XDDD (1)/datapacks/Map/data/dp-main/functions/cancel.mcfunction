@@ -1,4 +1,4 @@
 function dp-main:lines/clear-chat
 
-scoreboard players set isPlayerLocked Bool 0
+function dp-main:unlock-player
 

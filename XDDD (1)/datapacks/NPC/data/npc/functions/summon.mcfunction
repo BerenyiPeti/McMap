@@ -1,5 +1,7 @@
 function npc:kill
 
-summon villager ~ ~ ~ {NoGravity:1b,Silent:1b,NoAI:1b,Tags:["npc"]}
+summon villager ~ ~ ~ {Invulnerable:1b,NoGravity:1b,Silent:1b,NoAI:1b,Tags:["npc"]}
 
-function npc:rotate
+summon text_display ~ ~1 ~ {billboard:"center",text:'{"bold":true,"color":"aqua","text":"Péter, az interdimenzionális kurátor"}',Tags:["peter"]}
+
+$function npc:set-rotation {rot:$(r)}

@@ -1,0 +1,23 @@
+lobby: 
+88 -51 55
+spawnpoint @p 89 -51 54 180
+
+pistons: 
+119 -58 71
+spawnpoint @p 120 -58 70 180
+
+rails: 
+268 -41 69
+spawnpoint @p 269 -41 68 180
+
+logic gates: 
+237 -41 68
+spawnpoint @p 238 -41 67 180
+
+mazepuzzle: 
+322 -40 73
+spawnpoint @p 323 -40 72 180
+
+perspectives:
+371 -39 75
+spawnpoint @p 372 -39 74 180

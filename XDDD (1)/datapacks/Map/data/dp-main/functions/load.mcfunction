@@ -5,6 +5,8 @@ scoreboard players set question StartQuiz 0
 scoreboard players set answer StartQuiz 0
 scoreboard players set @p StartQuiz 0
 
+scoreboard objectives add pistons dummy
+
 scoreboard objectives add Timer dummy
 scoreboard players set time Timer 20
 scoreboard players set timeHidden Timer 0
@@ -25,6 +27,8 @@ scoreboard objectives add Int dummy
 scoreboard players set 20 Int 20
 scoreboard players set 140 Int 140
 scoreboard players set 150 Int 150
+
+scoreboard objectives add logicgates dummy
 
 scoreboard objectives add rails dummy
 scoreboard players set changed rails 0
@@ -47,16 +51,17 @@ scoreboard players set max-x mazepuzzle 2
 scoreboard players set max-y mazepuzzle 2
 
 scoreboard objectives add perspectives dummy
-scoreboard objectives setdisplay sidebar perspectives
+scoreboard objectives setdisplay sidebar logicgates
 
 #scoreboard objectives setdisplay sidebar Bool
 
-kill @e[type=minecraft:marker,tag=lock]
 kill @e[type=minecraft:minecart]
-summon marker 0 -60 0 {Invulnerable:1b,Tags:["lock"]}
+
 
 #scoreboard objectives setdisplay sidebar Timer
 
 #töröld ki ezeket, ha kész a map + scoreboard player seteket!
 setblock 7 -60 37 minecraft:air
+
+#scoreboard objectives setdisplay sidebar
 
