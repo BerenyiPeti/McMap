@@ -7,5 +7,3 @@ execute at @p run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:air replace repeating_comm
 execute at @p run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:air replace command_block
 
 setblock 7 -60 37 minecraft:redstone_block
-
-say ran clone

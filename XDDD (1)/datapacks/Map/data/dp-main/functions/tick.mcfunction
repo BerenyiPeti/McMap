@@ -30,7 +30,7 @@ execute at @p run execute if block ~ ~-1.3 ~ minecraft:red_wool run scoreboard p
 #piston game
 function dp-main:blue-games/pistons/pistons-controller
 
-#execute if entity @p[gamemode=!adventure] run function dp-main:punishment
+execute if entity @p[gamemode=!adventure] run function dp-main:punishment
 
 #events
 
