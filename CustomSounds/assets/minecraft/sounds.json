@@ -1,0 +1,38 @@
+{
+  "custom.alarm": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm"
+    ],
+    "subtitle": "subtitles.custom.alarm"
+  },
+  "custom.lift": {
+    "category": "master",
+    "sounds": [
+      "custom/lift"
+    ],
+    "subtitle": "subtitles.custom.lift"
+  },
+  "custom.lift-start": {
+    "category": "master",
+    "sounds": [
+      "custom/lift-start"
+    ],
+    "subtitle": "subtitles.custom.lift-start"
+  },
+  "voicelines.proba": {
+    "category": "master",
+    "sounds": [
+      "voicelines/proba"
+    ],
+    "subtitle": "proba"
+  }
+  ,
+  "voicelines.check_resourcepack": {
+    "category": "master",
+    "sounds": [
+      "voicelines/check_resourcepack"
+    ],
+    "subtitle": "check_resourcepack"
+  }
+}
