@@ -12,3 +12,4 @@ function dp-main:reset/reset-perspectives
 #events
 function dp-main:reset/reset-events
 
+spawnpoint @p -38 -60 -9

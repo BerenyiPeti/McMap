@@ -23,6 +23,8 @@ scoreboard objectives add mazepuzzle dummy
 
 scoreboard objectives add perspectives dummy
 
+scoreboard objectives add start-code dummy
+
 #scoreboard objectives setdisplay sidebar Bool
 
 #kill @e[type=minecraft:minecart]

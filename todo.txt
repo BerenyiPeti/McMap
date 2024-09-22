@@ -7,7 +7,6 @@ Ideas:
 -backrooms random event
 
 Todo:
--liftzene a minecart hang helyett
 -voicelineok
--dizájn
--ajto a kockanal
+-jobb design a logicgates mapra
+-táblákat befejzeni, főleg a szint jelző táblákat

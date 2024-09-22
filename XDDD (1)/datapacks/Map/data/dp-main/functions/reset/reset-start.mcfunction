@@ -1,4 +1,4 @@
-spawnpoint @p -6 -59 9
+#spawnpoint @p -6 -59 9
 
 fill -6 -56 13 -6 -56 7 minecraft:glass replace minecraft:red_concrete
 

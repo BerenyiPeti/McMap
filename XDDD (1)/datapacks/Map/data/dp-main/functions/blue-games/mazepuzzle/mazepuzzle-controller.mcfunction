@@ -1,6 +1,6 @@
 function dp-main:blue-games/mazepuzzle/is-movable
 
-execute if score movable mazepuzzle matches 0 run say not movable
+#execute if score movable mazepuzzle matches 0 run say not movable
 execute if score movable mazepuzzle matches 1 run function dp-main:blue-games/mazepuzzle/move
 
 scoreboard players set north mazepuzzle 0
